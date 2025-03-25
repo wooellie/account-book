@@ -1,0 +1,37 @@
+#java array exercises
+public class ArrayExample{
+
+public static void main(String[] args){
+  //initialize an array
+  int[] array = {1,2,3,4,5};
+
+  //Access element in an array
+  System.out.println("First element" + arr[0]);
+  System.out.println("Second element" + arr[1]);
+
+  //Modify elements in an array
+  array[2] = 10;
+  system.out.print("Modified array: ");
+  for(int i : array){
+    System.out.print(i + " ");
+  }
+  System.out.println;
+  
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+#java array exercises
+
+
+
+
