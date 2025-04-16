@@ -1,0 +1,16 @@
+#java array exercise 2
+int arr[] = {1,2,3,4,5};
+//iterate an array
+system.out.println(“Array elements: ”);
+for(i : arr){
+  system.out.println(i);
+}
+//append an element in an array(array in java is fixed in size, so we need to create a new array)
+int[] newArr = new  int[arr.len + 1];
+for(int i=0; i < arr.length; i++){
+  newArr[i] = arr[i];
+}
+newArr[arr.length] = 6;
+arr = newArr;//replace arr with newArr
+
+
